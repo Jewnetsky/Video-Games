@@ -77,7 +77,7 @@ void CGame::Update(float dt)
 
 	// Play sound if collision occurred
 	if (DidBallCollideWithPaddle())
-		m_soundBuffer.PlaySound("Content/Sounds/Bounce.m4a");
+		m_soundBuffer.PlaySound("Content/Sounds/Bounce.ogg");
 
 	// If any player scored, update m_updateScore to true
 	if (DidPlayersScore())
@@ -92,7 +92,7 @@ void CGame::Update(float dt)
 		m_scoringPlayer = 0;
 
 		// Play goal making sound
-		m_soundBuffer.PlaySound("Content/Sounds/Goal.m4a");
+		m_soundBuffer.PlaySound("Content/Sounds/Goal.ogg");
 
 		// Switch gameState
 		if ((m_player1Score >= 5) ||
