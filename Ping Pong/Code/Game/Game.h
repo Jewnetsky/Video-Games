@@ -29,8 +29,6 @@ public:
 	bool DidPlayersScore(); // 0 means player 1 scored, 1 means player 2 scored
 	bool DidBallCollideWithPaddle(); // True if collided; false otherwise
 
-	
-
 private:
 	void ShowSplashScreen();
 	void ShowMenu();
@@ -59,9 +57,7 @@ private:
 	bool m_updateScore;
 	bool m_maxScoreReached; // True if player or AI have reached max score
 
-
 	float m_currentTime;
-
 
 private:
 	CGameObjectManager* m_pObjectManager;

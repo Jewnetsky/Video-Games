@@ -39,7 +39,6 @@ inline sf::Vector2f operator+=(const sf::Vector2f left, const int right)
 }
 
 
-
 // GameMath class
 class CGameMath
 {

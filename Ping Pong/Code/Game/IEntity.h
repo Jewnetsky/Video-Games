@@ -43,6 +43,7 @@ private:
 
 public:
 	virtual sf::Rect<float> GetBoundingBox() { return GetSprite().getGlobalBounds(); }
+
 	inline void SetPosition(float x, float y)
 	{
 		if (CRenderer::GetRenderer().IsLoaded())
@@ -50,6 +51,7 @@ public:
 			GetSprite().setPosition(x, y);
 		}
 	}
+
 	inline sf::Vector2f GetPosition()
 	{
 		if (CRenderer::GetRenderer().IsLoaded())
