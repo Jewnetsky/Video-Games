@@ -34,11 +34,11 @@ void CSFMLMusicProvider::AddFileToCache(const std::string filename)
 
 void CSFMLMusicProvider::InitSounds()
 {
-	AddFileToCache("Content/Music/Sunshine.wav");
-	AddFileToCache("Content/Music/Amie.wav");
-	AddFileToCache("Content/Music/Real Hip Hop.wav");
-	AddFileToCache("Content/Music/Something for Chicago.wav");
-	AddFileToCache("Content/Music/Third Time.wav");
+	AddFileToCache("Content/Music/Sunshine.m4a");
+	AddFileToCache("Content/Music/Amie.m4a");
+	AddFileToCache("Content/Music/Real Hip Hop.m4a");
+	AddFileToCache("Content/Music/Something for Chicago.m4a");
+	AddFileToCache("Content/Music/Third Time.m4a");
 }
 
 std::shared_ptr<sf::Music> CSFMLMusicProvider::GetAudioFile(const std::string filename) const

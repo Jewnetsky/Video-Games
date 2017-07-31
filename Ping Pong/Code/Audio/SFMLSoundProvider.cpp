@@ -49,6 +49,6 @@ void CSFMLSoundProvider::PlaySound(const std::string filename)
 
 void CSFMLSoundProvider::InitSounds()
 {
-	AddFileToCache("Content/Sounds/Bounce.wav", m_buffer[0]);
-	AddFileToCache("Content/Sounds/Goal.wav", m_buffer[1]);
+	AddFileToCache("Content/Sounds/Bounce.ogg", m_buffer[0]);
+	AddFileToCache("Content/Sounds/Goal.m4a", m_buffer[1]);
 }
