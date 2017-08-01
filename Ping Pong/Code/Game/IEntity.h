@@ -69,6 +69,6 @@ public:
 };
 #endif
 
-// Child classes access different copies of their parent class when their parent class is an interface
+// NOTE: Child classes access different copies of their parent class when their parent class is an interface
 
 

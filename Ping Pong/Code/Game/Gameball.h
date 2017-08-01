@@ -23,7 +23,6 @@ public:
 	void CalculateRandomAngle();
 	sf::Vector2f& GetVelocity() { return m_goal; }
 
-	
 private:
 	sf::Vector2f m_goal;
 	sf::Vector2f m_velocity;
@@ -34,7 +33,6 @@ private:
 	float m_elapsedTimeSinceStart;
 	float m_magnitude; // Magnitude of velocity vector
 	
-
 	CGameObjectManager* m_pObjectManager;
 };
 #endif

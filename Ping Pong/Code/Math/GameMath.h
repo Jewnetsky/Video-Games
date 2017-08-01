@@ -5,7 +5,7 @@
 #include <math.h>
 
 
-/* Vector overloading functions */
+// Vector overloading functions
 inline sf::Vector2f operator*(const sf::Vector2f& left, const sf::Vector2f& right) 
 {
 	sf::Vector2f product;

@@ -30,7 +30,7 @@ public:
 private:
 	std::string m_filename;
 	sf::Font m_font;
-	bool m_isLoaded; // Checks if filename was loaded or not
+	bool m_isLoaded; 
 
 private:
 	sf::Text m_countdown;

@@ -49,7 +49,7 @@ private:
 	Timer m_deltaTimer;
 
 private:
-	unsigned int m_player1Score; // Send these to private section along with a previous score and use the getters of each to compare whether any player scored (in the getobjectmanager class in the draw function) so you can re update the scoreboard appropriately
+	unsigned int m_player1Score; 
 	unsigned int m_player2Score;
 
 	int m_scoringPlayer; // 0 is the default value, 1 means player 1 scored, and 2 means player 2 scored
