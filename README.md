@@ -1,2 +1,2 @@
 # Video-Games
-Going to be trying to upload my project to Github until the end of time
+I was really upset trying to upload my game to GitHub
